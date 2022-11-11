@@ -22,7 +22,7 @@ Visualizations makes things easier so, performed exploratory data analysis and c
 Logistic Regression.\
 Random Forest Classifier.\
 Decision Tree Classifier.\
-Support Vector Machine classifier.\
+Support Vector Machine classifier.
 * Compared model performance using different evaluation metrics in order to get the best performing model.
 
 Conclusion:
