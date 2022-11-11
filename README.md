@@ -14,10 +14,10 @@ Perform classification analysis using multiple models and predict the price rang
 Steps to be followed:
 --------------------------------------------------------------------------------------------------------------------------
 * Started off with data overview, just to understand what’s in the dataset and in order to inspect how clean the dataset is for working.
-Visualizations makes things easier so, performed exploratory data analysis and checked for data distribution.\
-* Checked for multicollinearity to check if the features are depedent or independent of each other.\
-* Perform the outlier detection task and delt with it successfully.\
-* Split the dataset into training and testing data (80% of the data is used for training & 20% of the data is being used for testing).\
+Visualizations makes things easier so, performed exploratory data analysis and checked for data distribution.
+* Checked for multicollinearity to check if the features are depedent or independent of each other.
+* Perform the outlier detection task and delt with it successfully.
+* Split the dataset into training and testing data (80% of the data is used for training & 20% of the data is being used for testing).
 * Perform different machine learning models as follows:
 Logistic Regression.\
 Random Forest Classifier.\
@@ -27,8 +27,8 @@ Support Vector Machine classifier.\
 
 Conclusion:
 ---------------------------------------------------------------------------------------------------------------------------
-* From EDA we can see that there is no imbalance in classes of output variable which is a good thing. also there is very less multicolinearity beetween features which is kind of reduces our work still we did some changes in variables which ultimetly improve our performance.\
-* It has been observed that expensive mobiles can have fewer features. Like you can find expensive mobile phones with no wifi, no touch screen, no 4G support, no dual sim and even with no bluetooth support. and thats thats mainly beacause of the quality and thr brand of the mobile phone.\
-* As We have used predictive models, It is being obseved that the data distribution of each variable to the each classes of output variable is almost similar which might be the reason for worst performance of tree based models.\
-* Mainly features like RAM, battery power, pixels and Mobile weight plays the significant role in deciding the price range of mobile phone.\
+* From EDA we can see that there is no imbalance in classes of output variable which is a good thing. also there is very less multicolinearity beetween features which is kind of reduces our work still we did some changes in variables which ultimetly improve our performance.
+* It has been observed that expensive mobiles can have fewer features. Like you can find expensive mobile phones with no wifi, no touch screen, no 4G support, no dual sim and even with no bluetooth support. and thats thats mainly beacause of the quality and thr brand of the mobile phone.
+* As We have used predictive models, It is being obseved that the data distribution of each variable to the each classes of output variable is almost similar which might be the reason for worst performance of tree based models.
+* Mainly features like RAM, battery power, pixels and Mobile weight plays the significant role in deciding the price range of mobile phone.
 On the basis of the classification report, we can say that the SVM using hyperparameters we got the best results out of all other followed by logistic regression model.
